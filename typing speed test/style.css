@@ -11,7 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: linear-gradient( #007acc, #6DD5FA, #FFFFFF);
+    background: linear-gradient( #00FFFF, #6DD5FA, #FFFFFF);
 }
 #paragraph{
     color: #646669;
@@ -21,7 +21,7 @@ body {
 }
 ::selection {
     color: #fff;
-    background: #007acc;
+    background: #00FFFF;
 }
 .wrapper {
     width: 700px;
@@ -75,7 +75,7 @@ body {
     left: 0;
     opacity: 0;
     border-radius: 5px;
-    background: #007acc;
+    background: #00FFFF;
     animation: blink 1s ease-in-out infinite;
 }
 @keyframes blink {
@@ -90,19 +90,19 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    border-top: 3px solid #007acc;
+    border-top: 3px solid #00FFFF;
 }
 .content button {
     outline: none;
     border: none;
     width: 105px;
-    color: #007acc;
+    color: limegreen;
     padding: 8px 0;
     font-size: 17px;
     font-weight: 600;
     cursor: pointer;
     border-radius: 15px;
-    border: 3px solid #007acc;
+    border: 3px solid #00FFFF;
     background: none;
     transition: transform 0.2s ease;
 }
